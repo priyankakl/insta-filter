@@ -20,4 +20,4 @@ R,G,B=img_filter.split()
 #Merge RGB vectors from digfrent images
 im=Image.merge("RGB", (r,G,b))
 im.show()
-# im.save('1_merged.jpg')
+im.save('1_merged.jpg')
