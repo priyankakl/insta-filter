@@ -7,7 +7,7 @@ base_img= Image.open("portrait.jpg")
 img_filter=Image.open("filter3.jpg")
 
 #Set O/P Image size
-size=(760,760)
+size=(750,750)
 
 #Resize all the images to o/p size
 base_img=base_img.resize(size)
